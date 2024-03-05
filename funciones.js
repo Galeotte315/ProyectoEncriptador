@@ -101,7 +101,16 @@ function copiar() {
 
 
 
+// No permitir Mayusculas ni acentos
+var textarea = document.getElementById('enciptadoEntrada');
 
+textarea.addEventListener('input', function() {
+    var texto = textarea.value;
+
+    texto = texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    
+    textarea.value = texto;
+});
 
 
 
