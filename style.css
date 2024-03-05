@@ -1,0 +1,374 @@
+
+body {
+    background-color: #d3dae0; 
+    margin: 0; /* Asegura que no haya margen alrededor de la página */
+    padding: 0; /* Asegura que no haya relleno alrededor de la página */
+}
+
+.caja{
+    width: 1440px;
+    height: 1024px;
+    top: 50px;
+    left: 100px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+.imgLogo{
+    width: 120px;
+    height: 48px;
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+.caja2{
+    display: flex;
+    width: 100%;
+}
+.encriptado{
+    display: inline-block;
+}
+.resultado{
+    display: relative;
+    
+    
+}
+
+.encriptado{
+    position: relative;
+    /* display: inline-block; */
+    top: 80px;
+    left: 10%;
+    /* right: 15%; */
+}
+.textarea-e{
+    /* font-family: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas'; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    resize: none;
+    width: 100%;
+    height: 500px;
+    color: #0A3871;
+    margin-left: 12%;
+    
+    /* background-color: #5a5a5a; */
+    /* border: 0px solid #000;
+    border-radius: 3%; */
+    border: none; /* Eliminar el borde */
+    outline: none; /* Eliminar el contorno */
+    
+}
+
+.informacion {
+    margin-top: 20px; /* Espacio entre el textarea y el párrafo */
+    margin-left: 12%;
+}
+
+
+/* textarea{
+    
+    
+} */
+
+.my-button{
+    padding: 12px 60px;
+    font-size: 18px;
+    background-color: rgb(195, 199, 199);
+    color: #0A3871;
+    border-color: #0A3871;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block; 
+    margin-left: 15px;
+    margin-right: 10px; /* Ajusta el margen derecho entre los botones */
+    
+}
+.my-button:hover{
+    background-color: #83b0e7;
+}
+.my-button-e{
+    padding: 12px 75px;
+    font-size: 18px;
+    background-color: #0A3871;
+    
+    color: rgb(255, 253, 253);
+    border-color: transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px; /* Ajusta el margen superior para separar el botón de los otros elementos */
+    margin-left: 50px; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+
+}
+.my-button-e:hover{
+    background-color: #2f66a8;
+}
+
+.resultado{
+    position: relative;
+    top: 80px;
+    left: 30%;
+}
+
+.contenedor-textarea-b {
+    position: relative;
+    width: 300px; 
+    height: 200px; 
+}
+.textarea-b {
+    /* font-family: 'Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas'; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    resize: none;
+    width: 100%;
+    height: 500px;
+    resize: none;
+    background-color: white;
+    color: #495057;
+    padding: 50px; /* Ajusta el relleno */
+    position: relative;
+    z-index: -1;
+    border: 1px solid #5a5a5a;
+    border-radius: 3%;
+    outline: none; /* Eliminar el contorno */
+    
+}
+.imgGato {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    opacity: 1.0; /* Ajusta la opacidad  */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.menseje01, .mensaje02{
+    margin-top: 20px;
+    font-size: 22px;
+    text-align: center;
+    position: absolute;
+    bottom: -80px; /* Ajusta la posición */
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+
+    
+}
+.mensaje02{
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    position: absolute;
+    bottom: -150px; /* Ajusta la posición  */
+    left: 50px;
+    width: 100%;
+    z-index: 1;
+    
+}
+.imgAstronauta {
+    width: 31%;
+    height: 55%;
+    object-fit: cover; /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+    opacity: 1.0; /* Ajusta la opacidad  */
+    position: absolute;
+    top: 380px;
+    left: 160px;
+    z-index: 1;;
+    /* background-color: aqua; */
+}
+
+
+.my-button-f {
+    padding: 12px 80px;
+    font-size: 18px;
+    background-color: rgb(195, 199, 199);
+    border-color: #0A3871;
+    color: #0A3871;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    margin-top: 340px; 
+    margin-left: 100px; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+    /* text-align: center; */
+    z-index: 1;
+    display: none;
+}
+
+.my-button-f:hover {
+    background-color: #83b0e7;
+}
+
+/* .textarea-b{
+    position:relative;
+    z-index: 1;
+} */
+
+footer{
+    text-align: center;
+    padding:20px;
+    background-color: rgb(24, 36, 52);
+}
+.imgAstronauta03{
+    width: 300px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 18px;
+    margin:20px;
+}
+
+@media screen and (max-width:480px){
+    .caja{
+        width: auto;
+        height: auto;
+        left: auto;
+        top: 5px;
+        position: relative;
+        margin: 0 auto;
+        
+    }
+    
+    .imgLogo{
+        width: auto;
+    }
+    .caja2{
+        display: inline-block;
+        width: auto;
+    }
+    .encriptado{
+        display: inline-block;
+        left: 2%;
+    }
+    
+    
+    .encriptado{
+        position: relative;
+    }
+    .textarea-e{
+        font-size: 28px;
+        width: 170%;
+        height: 300px;
+        border: none; 
+        outline: none; 
+    }
+    .informacion {
+        margin-top: 20px; /* Espacio entre el textarea y el párrafo */
+    }
+    textarea{
+        resize: none;
+        
+    }
+    
+    .my-button{
+        padding: 5% 62%;
+        font-size: 20px;
+        background-color: rgb(215, 218, 218);
+        border-radius: 15px;
+        border-color: #0A3871;
+        text-align: center;
+        margin-top: 10px;
+        margin-left:0px;
+        
+    }
+    .my-button:hover{
+        background-color: #83b0e7;
+    }
+    .my-button-e{
+        
+        padding: 5% 68%;
+        font-size: 20px;
+        
+        border-radius: 15px;
+        cursor: pointer;
+        margin-top: 10px; 
+        margin-left: auto; /* Centra el botón horizontalmente */
+        margin-right: auto; /* Centra el botón horizontalmente */
+    
+    }   
+    .resultado{
+        display: block;
+        top: 80px;
+        left: 0;
+    }
+    
+    .contenedor-textarea-b {
+        width: auto; 
+        top: 25px;
+    }
+    .textarea-b {
+        width: auto;
+        margin-left: 2%;
+    }
+
+    
+    .imgGato {
+        width: auto;
+        left: 25%;
+        z-index: 1;
+    }
+    .menseje01{
+        margin-top: auto;
+        bottom: -50%;
+        width: auto;
+        left: 25%;
+        
+    }
+    .mensaje02{
+        margin-top: 20px;
+        bottom: -80%;
+        width: auto;
+        left: 16%;
+        
+    }
+    .imgAstronauta {
+        width: auto;
+        position: relative;
+        top: -100%;
+        left: 40%;
+
+        
+    }
+    
+    
+    .my-button-f {
+        padding: 10px 35%;
+        font-size: 20px;
+        background-color: rgb(215, 218, 218);
+        color: #0A3871;
+        margin-left: 7%;
+
+    }
+    
+    .my-button-f:hover {
+        background-color: #83b0e7;
+    }
+    
+
+    footer {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        width: 100%;
+        background-color: rgb(24, 36, 52);
+        padding: 20px;
+        box-sizing: content-box;
+        margin-top: 60%;
+    }
+    
+    .imgAstronauta03 {
+        width: 100%; 
+        max-width: 200px; 
+        height: auto;
+    }
+    
+    .copyright {
+        color: #FFFFFF;
+        font-size: 16px;
+        margin: 0;
+    }
+}

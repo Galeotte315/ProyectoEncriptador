@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="caja">
+            <img src="imagenes/Logo.png" alt="Logo de pagina" class="imgLogo">
+            <div class="caja2">
+                <div class="encriptado">
+                    <form action="">
+                        <textarea class="textarea-e" name="datos" id="enciptadoEntrada">Ingrese el texto aquí</textarea>
+                        
+                        <p class="informacion">&#9406;Solo letras minúsculas y sin acentos.</p>
+                        <!-- <input type="button" value="enciptar" onclick="enciptar()">
+                        <input type="button" value="desencriptar" onclick="desencriptar()"> -->
+                        <button  type="button" class="my-button-e" onclick="enciptar()">Enciptar</button>
+                        <button  type="button" class="my-button" onclick="desencriptar()">Desencriptar</button>
+                        
+                    </form>
+    
+                </div>
+                <div class="resultado">
+                    <div class="contenedor-textarea-b">
+                        <textarea class="textarea-b" name="desencriptado" id="textoEncriptado" cols="30" rows="10"  readonly="readonly">Resultado</textarea>
+                        <img src="imagenes/gato.png" alt="imagen de un dibujo de gato " class="imgGato" id="imagenGato">
+                        <h2 class="menseje01" id="menseje01">Ningún mensaje fue encontrado.</h2>
+                        <h3 class="mensaje02" id="mensaje02">Ingrese el texto que desees encriptar o desencriptar.</h3>
+                        <img class="imgAstronauta" src="imagenes/astronauta01.png" alt="imagen de un astronauta pescando en la launa">
+                        <!-- <button type="button" class="btn">Copiar</button> -->
+                        <!-- <input type="button" value="Copiar" onclick=""> -->
+                    </div>
+                    <button class="my-button-f" id="botonCopiar" onclick="copiar()">Copiar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="imagenes/astronaunta03.jpg" class="imgAstronauta03">
+            <p class="copyright">&copy Copyright Pagina Encriptado - 2024</p>
+    </footer>
+</body>
+<script src="funciones.js"></script>
+</html>
